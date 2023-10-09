@@ -1,6 +1,6 @@
-Nama : Muhammad Bagas Ramadhan
-Kelas : 3G
-NIM : 2141720120
+## Nama : Muhammad Bagas Ramadhan
+## Kelas : 3G
+## NIM : 2141720120
 
 # Praktikum 1: Membangun Layout di Flutter
 
