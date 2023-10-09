@@ -50,7 +50,11 @@ Pada langkah ini dilakukan pemecahan layout menjadi elemen dasarnya:
 
 • Perhatikan area yang memerlukan alignment, padding, atau borders.
 
-Dalam hal ini menyusun elemen menjadi sebuah kolom: sebuah gambar, dua baris, dan satu blok teks. Selanjutnya, buat diagram setiap baris. Baris pertama, disebut bagian Judul, memiliki 3 anak: kolom teks, ikon bintang, dan angka. Anak pertamanya, kolom, berisi 2 baris teks. Kolom pertama itu memakan banyak ruang, sehingga harus dibungkus dengan widget yang diperluas. Baris kedua, disebut bagian Tombol, juga memiliki 3 anak: setiap anak merupakan kolom yang berisi ikon dan teks.
+Dalam konteks ini, pengaturan elemen menjadi satu kolom terdiri dari gambar, dua baris, dan satu blok teks menjadi perhatian utama. Selanjutnya, kita akan membuat diagram untuk setiap baris ini.
+
+Baris pertama, yang kita sebut sebagai "Judul", terdiri dari tiga komponen: sebuah kolom teks, sebuah ikon bintang, dan sebuah angka. Bagian pertama dari kolom ini memiliki dua baris teks. Kolom pertama ini mengambil banyak ruang, sehingga perlu ditempatkan dalam sebuah widget yang dapat diperluas.
+
+Baris kedua, yang kita namakan "Tombol", juga terdiri dari tiga elemen: masing-masing adalah kolom yang berisi ikon dan teks.
 
 ## Langkah 4: Implementasi title row
 Menambahkan kode berikut di bagian atas metode build() di dalam kelas MyApp:
